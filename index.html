@@ -8,13 +8,18 @@
     <title>Contador</title>
 </head>
 <body>
-    <h1 onclick="contar()">Contador</h1>
+    <h1>Contador</h1>
     <section>
         <div>
             <p>início: <input type="number" name="" id="inicio"></p> 
             <p>Fim: <input type="number" name="" id="fim"></p>
             <p>Passo: <input type="number" name="" id="passo"></p>
-            <button>Contar</button>
+           
+            <button onclick="contar()">Contar</button>
+            <button onclick="limpar()">Limpar</button>
+        </div>
+        <div id="res">
+
         </div>
     </section>
     <footer>&triangleleft;Alan's enterprise&triangleright;</footer>
